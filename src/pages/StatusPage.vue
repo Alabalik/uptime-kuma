@@ -154,17 +154,17 @@
             <template v-else>
                 <div v-if="allUp">
                     <font-awesome-icon icon="check-circle" class="ok" />
-                    {{ $t("All Systems Operational") }}
+                    Bütün Serverlar çalışıyor.
                 </div>
 
                 <div v-else-if="partialDown">
                     <font-awesome-icon icon="exclamation-circle" class="warning" />
-                    {{ $t("Partially Degraded Service") }}
+                    Bozuk Serverlar olabilir.
                 </div>
 
                 <div v-else-if="allDown">
                     <font-awesome-icon icon="times-circle" class="danger" />
-                    {{ $t("Degraded Service") }}
+                    Serverlar Çalışmıyor.
                 </div>
 
                 <div v-else>
