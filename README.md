@@ -126,7 +126,7 @@ If you love this project, please consider giving me a ⭐.
 
 ## 🗣️ Discussion
 
-### Issues Page
+### Issues Pages
 
 You can discuss or ask for help in [issues](https://github.com/louislam/uptime-kuma/issues).
 
